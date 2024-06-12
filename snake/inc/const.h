@@ -1,0 +1,21 @@
+#ifndef CONST_H
+#define CONST_H
+
+#define NANO_PER_FRAME 16666666
+#define WIDTH 480
+#define HEIGHT 320
+#define SCORE_HEIGHT 30
+#define FIELD_HEIGHT (HEIGHT - SCORE_HEIGHT)
+#define KNOB_FULL_TURN 96
+#define APPLES_COUNT 7
+#define APPLE_ADDS 4
+#define MAX_ENERGY 100
+#define SKIRMISH_START_LENGTH 100
+#define HUNT_START_LENGTH 10
+#define CHAIN_RAD 5
+#define SNAKE_SPEED 3
+#define DOUBLE_SPEED_COST 3
+
+#define SKIRMISH_DMG_PART 3
+
+#endif // CONST_H
